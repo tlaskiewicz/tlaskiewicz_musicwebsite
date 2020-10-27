@@ -11,10 +11,13 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Amarante', cursive;
 }
 
 /*
@@ -87,15 +90,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.outline-box {
-  padding: 100px;
-  margin: 50px;
-  color: Black;
-  outline: inherit;
-  outline-color: Black;
-  outline-width: thin;
+/* sets up background image for website, kills horizontal scrolling, and sets google font for whole site */
+body{
+  width: 100vw;
+  background-image: url('../img/gloryhammer_bg.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Amarante', cursive;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+/* Centers the header and its contents */
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* sets up the outline box with the image inside */
+.outline-box {
+    background-color: rgba(255, 255, 255, .3);
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 10% 0% 2% 0%;
+    width: 80%;
+}
+
+/* styles in the image in the outline box and enlarges it */
+.outline-box img{
+  margin: 2%;
+  padding: 0% 10%;
+  width: 130%;
+}
 
 
 
