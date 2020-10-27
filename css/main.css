@@ -87,11 +87,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.outline-box {
+  padding: 100px;
+  margin: 50px;
+  color: Black;
+  outline: inherit;
+  outline-color: Black;
+  outline-width: thin;
+}
 
 
 
 
-   
 
 /* ==========================================================================
    Helper classes
@@ -266,4 +273,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
