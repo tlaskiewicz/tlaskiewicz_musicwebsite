@@ -113,6 +113,40 @@ header{
   flex-direction: column;
 }
 
+.topnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.topnav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topnav ul li{
+  width: 300px;
+  height: 50px;
+  border: 2px solid #fff;
+  margin: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav ul li a{
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
 /* sets up the outline box with the image inside */
 .outline-box {
     background-color: rgba(255, 255, 255, .3);
@@ -144,6 +178,22 @@ h1 {
     margin: 10% 0% 2% 0%;
     width: 80%;
 }
+
+.childpage_header{
+  right: 18%;
+  top: 100px;
+  width: 80%;
+  height: 80px;
+  position: relative;
+}
+
+.childpage_header h1{
+  font-size: 100px;
+  margin: 0px;
+
+}
+
+
 
 .contact2 {
     border: 2px solid #fff;
