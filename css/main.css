@@ -216,18 +216,45 @@ article {
   position: relative;
   margin: 10% 0% 2% 0%;
   width: 80%;
+  font-size: 25px;
+}
+
+.hook {
+
 }
 
 .tour {
   color: #ffffff;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0% 2% 0%;
+  right: 100%;
+  top: 100px;
+  width: 80%;
+  height: 80px;
+  position: relative;
+}
+
+.tour2 {
+  color: #ffffff;
+  font-size: 25px;
 }
 
 .contact {
   color: #ffffff;
+  font-size: 25px;
+  margin: 100px;
 }
 
 .contact2 {
   color: #ffffff;
+  font-size: 30px;
+  right: 18%;
+  top: 10px;
+  width: 80%;
+  height: 80px;
+  position: relative;
 }
 
 ul {
