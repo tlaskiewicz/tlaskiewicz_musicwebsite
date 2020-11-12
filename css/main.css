@@ -168,7 +168,7 @@ header{
 }
 
 h1 {
-    
+
     border: 2px solid #fff;
     display: flex;
     justify-content: center;
@@ -177,6 +177,40 @@ h1 {
     position: relative;
     margin: 10% 0% 2% 0%;
     width: 80%;
+}
+
+.topnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.topnav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topnav ul li{
+  width: 300px;
+  height: 50px;
+  border: 2px solid #fff;
+  margin: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav ul li a{
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
 }
 
 .childpage_header{
@@ -230,8 +264,8 @@ article {
   justify-content: center;
   align-items: center;
   margin: 10% 0% 2% 0%;
-  right: 100%;
-  top: 100px;
+  right: 60%;
+  top: 110px;
   width: 80%;
   height: 80px;
   position: relative;
@@ -240,6 +274,14 @@ article {
 .tour2 {
   color: #ffffff;
   font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0% 2% 0%;
+  left: 60%;
+  top: -20px;
+  width: 80%;
+  height: 80px;
+  position: relative;
 }
 
 .contact {
@@ -264,6 +306,12 @@ ul {
 
 footer {
   color: #ffffff;
+}
+
+.backbutton {
+  position: relative;
+  right: 46%;
+  top: 50px;
 }
 /* ==========================================================================
    Helper classes
