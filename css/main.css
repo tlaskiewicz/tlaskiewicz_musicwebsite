@@ -216,13 +216,13 @@ h1 {
 .childpage_header{
   right: 18%;
   top: 100px;
-  width: 80%;
+  width: 130%;
   height: 80px;
   position: relative;
 }
 
 .childpage_header h1{
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, .5);
   font-size: 100px;
   margin: 0px;
   height: 50px;
@@ -241,7 +241,25 @@ h1 {
     width: 80%;
 }
 
-article {
+.lore1{
+  color: #ffffff;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: 10% 0% 2% -1%;
+  width: 60%;
+  font-size: 25px;
+
+}
+
+.lore1 p{
+  margin: 2% 2% 2% 10%;
+}
+
+.lore2{
   color: #ffffff;
   border: 2px solid #fff;
   display: flex;
@@ -250,12 +268,19 @@ article {
   flex-direction: column;
   position: relative;
   margin: 10% 0% 2% 0%;
-  width: 80%;
+  width: 60%;
+  left: 40%;
   font-size: 25px;
 }
 
-.hook {
+.lore2 p{
+  margin: 2% 10% 2% 2%;
+}
 
+.backarrow {
+  position: absolute;
+  left: 10px;
+  top: 15px;
 }
 
 .tour {
@@ -263,11 +288,10 @@ article {
   font-size: 25px;
   justify-content: center;
   align-items: center;
-  margin: 10% 0% 2% 0%;
+  margin: 10% 0% 10% 0%;
   right: 60%;
   top: 110px;
-  width: 80%;
-  height: 80px;
+  width: 100%;
   position: relative;
 }
 
@@ -300,19 +324,26 @@ article {
   position: relative;
 }
 
+.underlineme{
+  text-decoration: underline;
+}
+
 ul {
   color: #ffffff;
 }
 
 footer {
+  display: flex;
   color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  position: relative;
+  bottom: -700px;
+  margin: 0 auto;
 }
 
-.backbutton {
-  position: relative;
-  right: 46%;
-  top: 50px;
-}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
