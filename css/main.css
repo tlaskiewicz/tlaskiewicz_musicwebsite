@@ -156,13 +156,13 @@ header{
     align-items: center;
     flex-direction: column;
     position: relative;
-    margin: 10% 0% 2% 0%;
+    margin: 10% 0% 8% 0%;
     width: 80%;
 }
 
 /* styles in the image in the outline box and enlarges it */
 .outline-box img{
-  margin: 2%;
+  margin: -5%;
   padding: 0% 10%;
   width: 130%;
 }
@@ -337,12 +337,21 @@ footer {
   color: #ffffff;
   justify-content: center;
   align-items: center;
-  flex-direction: column-reverse;
+  flex-direction: column;
   position: relative;
   bottom: -700px;
   margin: 0 auto;
 }
 
+/* Media Queries */
+/* iPad */
+@media screen and (max-width: 768px){
+
+}
+/* iPhone */
+@media screen and (max-width: 320px){
+
+}
 
 /* ==========================================================================
    Helper classes
