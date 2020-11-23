@@ -225,7 +225,7 @@ h1 {
   background-color: rgba(255, 255, 255, .5);
   font-size: 100px;
   margin: 0px;
-  height: 50px;
+  height: 40px;
 }
 
 
@@ -347,9 +347,88 @@ footer {
 /* iPad */
 @media screen and (max-width: 768px){
 
+  .outline-box {
+    width: 98%;
 }
+
+.outline-box img {
+  margin: -5%;
+  padding: 0% 10%;
+  width: 90%;
+}
+
+.topnav ul li {
+  width: 140px;
+}
+
+  .lore1 {
+    width: 80%;
+    top: 70px;
+}
+
+.lore2{
+  margin: 14% 0% 2% 0%;
+  width: 80%;
+  left: 22%;
+}
+
+.contact2 {
+  right: 11%;
+  top: 40px;
+}
+
+.tour {
+  right: 0%;
+}
+
+}
+
 /* iPhone */
 @media screen and (max-width: 320px){
+
+ #home{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  main {
+    display: block;
+    height: 900px;
+}
+
+  .topnav ul {
+    flex-direction: column;
+  }
+
+  .lore1{
+    font-size: 15px;
+
+  }
+
+  .lore2 {
+    width: 80%;
+    left: 20%;
+    top: 40px;
+    font-size: 15px;
+}
+
+.childpage_header h1 {
+  background-color: rgba(255, 255, 255, .5);
+  font-size: 40px;
+  margin: 0px;
+  height: 10px;
+}
+
+.tour {
+  font-size: 15px;
+}
+
+.contact2 {
+  right: 11%;
+  top: 50px;
+  font-size: 12px;
+}
 
 }
 
